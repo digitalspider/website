@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<title>Demo: Flexible Column Layout &ndash; YAML CSS Framework</title>
+	<!-- Mobile viewport optimisation -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css/yaml/flexible-columns.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<ul class="ym-skiplinks">
+	<li><a class="ym-skip" href="#nav">Skip to navigation (Press Enter)</a></li>
+	<li><a class="ym-skip" href="#main">Skip to main content (Press Enter)</a></li>
+</ul>
+
+<div class="ym-wrapper">
+	<div class="ym-wbox">
+		<header>
+			<h1>Digital Spider</h1>
+		</header>
+		<nav id="nav">
+			<div class="ym-hlist" >
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="build.html">Build</a></li>
+					<li><a href="connect.html">Connect</a></li>
+					<li><a href="improve.html">Improve</a></li>
+					<li><a href="innovate.html">Innovate</a></li>
+					<li class="active"><a href="innovate.html"><strong>Contact</strong></a></li>
+				</ul>
+				<form class="ym-searchform">
+					<input class="ym-searchfield" type="search" placeholder="Search..." />
+					<input class="ym-searchbutton" type="submit" value="Search" />
+				</form>
+			</div>
+		</nav>
+		<main>
+			<div class="ym-column linearize-level-1">
+				<div class="ym-col1">
+					<div class="ym-cbox">
+						<section class="box info">
+							<h2>Contact Us</h2>
+							<p>
+							You can contact us by email at info@digitalspider.com.au.
+							Please let us know which area you are interested in and what your problem is.
+							We currently limit our solutions to the following technologies
+							<ul>
+								<li>Java</li>
+								<li>JSPWiki</li>
+								<li>Tomcat</li>
+								<li>MySQL</li>
+								<li>Atlassian Confluence</li>
+								<li>Atlassian JIRA</li>
+							</p>
+							<a class="ym-button ym-next" href="contact.html">Contact Us</a>
+						</section>
+					</div>
+				</div>
+				<aside class="ym-col3">
+					<div class="ym-cbox">
+						<h2>Sidebar</h2>
+						<h4>Advertisement</h4>
+						<div class="ym-contain-dt">
+							<img src="http://dummyimage.com/128x128/cccccc/fff.png" alt="ads" class="float-left bordered"/>
+							<img src="http://dummyimage.com/128x128/cccccc/fff.png" alt="ads" class="float-left bordered"/>
+						</div>
+						<h4>QuickLinks</h4>
+						<ul>
+							<li><a href="http://digitalspider.com.au/JSPWiki">Our wiki</a></li>
+						</ul>
+					</div>
+				</aside>
+			</div>
+		</main>
+		<footer>
+			<p>© Digital Spider 2014 &ndash; Layout based on <a href="http://www.yaml.de">YAML</a></p>
+		</footer>
+	</div>
+</div>
+
+<!-- full skip link functionality in webkit browsers -->
+<script src="css/yaml/core/js/yaml-focusfix.js"></script>
+</body>
+</html>
